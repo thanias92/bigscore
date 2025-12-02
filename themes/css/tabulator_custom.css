@@ -1,0 +1,29 @@
+.tabulator .tabulator-header .tabulator-col {
+  background-color: var(--bs-primary) !important;
+  color: #fff;
+}
+
+.tabulator
+  .tabulator-header
+  .tabulator-col.tabulator-sortable
+  .tabulator-col-content
+  .tabulator-col-sorter {
+  color: #fff;
+}
+
+.table_tabulator .tabulator-cell {
+  overflow: visible !important;
+}
+
+.table_tabulator .tabulator-tableholder {
+  overflow: visible !important;
+}
+
+.tabulator {
+  font-size: 0.9rem !important;
+  border-radius: 5px;
+}
+
+.tabulator-paginator .tabulator-page {
+  font-size: 0.8rem !important;
+}

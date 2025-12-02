@@ -1,0 +1,40 @@
+# phpstorm project files
+/protected/.idea
+
+# netbeans project files
+/protected/nbproject
+
+# zend studio for eclipse project files
+/protected/.buildpath
+/protected/.project
+/protected/.settings
+
+# windows thumbnail cache
+/protected/Thumbs.db
+
+# composer vendor dir
+/vendor
+/protected/config/db.php
+/protected/config/local_params.php
+
+
+# composer itself is not needed
+/protected/composer.phar
+
+
+# phpunit itself is not needed
+/protected/phpunit.phar
+# local phpunit config
+/protected/phpunit.xml
+/web/uploads/
+
+protected/runtime
+protected/modules/vendorfinance/views/pemasukan/bukti/
+protected/modules/vendorfinance/views/pemasukan/bukti_cicilan/
+protected/modules/vendorfinance/views/pemasukan/Invoicepdf/
+protected/tests/_output/*
+protected/tests/_support/_generated
+
+#vagrant folder
+/protected/.vagrant
+composer.lock

@@ -1,0 +1,96 @@
+<?php
+
+use yii\helpers\Html;
+use kartik\form\ActiveForm;
+//kanza push ulang untuk hosting
+/* @var $this yii\web\View */
+/* @var $model app\modules\task\ImplementationSearch */
+/* @var $form yii\widgets\ActiveForm */
+?>
+<div class="collapse show searchBox" id="implementation-search">
+  <div class="implementation-search">
+
+    <?php $form = ActiveForm::begin([
+    'action' => ['index'],
+    'fieldConfig' => ['options' => ['class' => 'form-group mb-0 mt-0']],
+    'method' => 'get',
+          'options' => [
+      'data-pjax' => 1
+      ],
+        ]); ?>
+    <div class="row">
+      <?php      
+      echo $form->field($model, 'queryString', [
+      'addClass' => 'form-control',
+      'addon' => [
+      'append' => [
+      'content' => Html::button('Cari |
+      <svg class="icon-16" width="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="11.7669" cy="11.7666" r="8.98856" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+        <path d="M18.0186 18.4851L21.5426 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>', ['class'=>'btn btn-secondary']),
+      'asButton' => true
+      ]
+      ]
+      ])->textInput(['placeholder'=>'Pencarian ...'])->label(false);
+      ?>      
+      <div class="col-4">
+    <?php // echo $form->field($model, 'id_implementasi') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'activity_title') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'activity') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'detail') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'start_date') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'completion_date') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'pic_aktivitas') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'status') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'notes') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'duration') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'line_progress') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'created_by') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'updated_by') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'deleted_by') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'created_at') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'updated_at') ?>
+</div>
+<div class="col-4">
+    <?php // echo $form->field($model, 'deleted_at') ?>
+</div>
+    </div>
+
+    <!-- <div class="form-group d-flex align-items-end flex-column">
+      <?= Html::submitButton('<i class="fas fa-search"></i> Cari', ['class' => 'btn btn-warning-info']) ?>
+      <?php //Html::resetButton('<i class="fas fa-sync"></i> Reset', ['class' => 'btn btn-soft-warning']) ?>
+    </div> -->
+    <?php ActiveForm::end(); ?>
+  </div>
+</div>

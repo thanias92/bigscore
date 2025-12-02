@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f6f8;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    align-items: center; /* Vertikal align items ke tengah */
+    margin-bottom: 15px;
+    gap: 20px; /* Jarak antar elemen di dalam header */
+    height: 10px; /*Contoh tinggi tetap 60 pixel */
+    padding: 5px 0;
+}
+.container h1 {
+    margin-right: 10px;
+    color: #333;
+    font-size: 24px;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+.button.active {
+    background-color: #007bff;
+    color: white;
+}
+.button:not(.active) {
+    background-color: #e9ecef;
+    color: #495057;
+}
+.search-add {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+}
+.search-input {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.add-button {
+    background-color: #27465e;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+.add-button:hover {
+    background-color: #1a2d3d; /* Efek hover yang lebih gelap */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    font-size: 14px;
+}
+td {
+    font-size: 14px; /* Ukuran font data tabel yang lebih sesuai */
+}
+.actions {
+    text-align: center;
+}
+.edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    padding: 0;
+    font-size: 16px;
+}
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    align-items: center;
+    gap: 10px;
+}
+.pagination select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+}
+.pagination button {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+}
+.pagination button.active {
+    background-color: #007bff;
+    color: white;
+}
