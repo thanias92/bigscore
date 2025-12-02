@@ -20,7 +20,7 @@ The Sales Module is a critical tool for managing the entire sales lifecycle, fro
 ## 🖼️ User Interface Screenshots
 
 *You will add links to your images here.*
-
+https://github.com/thanias92/bigscore/blob/39cbe293423437f4ff9e5b2d400024641a083df7/assets/Dashboard.png
 ### 1. Sales Dashboard 
 *A brief description of what the dashboard shows.*
 
